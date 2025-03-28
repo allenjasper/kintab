@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import EmployeeProductsTable from "./EmployeeProductsTable";
 import OrdersTable from "./OrdersTable";
 import axios from "axios";
+import '../../App.css';
 
 const EmployeeDashboard = () => {
     const [view, setView] = useState("products");
